@@ -1,0 +1,8 @@
+[package]
+name = "cmpler-tests"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+cmpler-core = { path = "../cmpler-core" }
+inkwell = { version = "0.6.0", features = ["llvm15-0"]}

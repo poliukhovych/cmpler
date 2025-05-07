@@ -1,0 +1,7 @@
+[workspace]
+members = [
+    "cmpler-cli",
+    "cmpler-core",
+    "cmpler-tests"
+]
+resolver = "2"

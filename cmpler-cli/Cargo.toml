@@ -1,0 +1,11 @@
+[package]
+name = "cmpler-cli"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+cmpler-core = { path = "../cmpler-core" }
+tracing = "0.1.41"
+clap = { version = "4.5.37", features = ["derive"] }
+tracing-subscriber = "0.3.19"
+inkwell = { version = "0.6.0", features = ["llvm15-0"]}

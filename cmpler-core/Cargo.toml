@@ -1,0 +1,16 @@
+[package]
+name = "cmpler-core"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+tracing = "0.1"
+tracing-subscriber = { version = "0.3", features = ["env-filter"] }
+tracing-appender = "0.2"
+thiserror = "1.0"
+logos = "0.13"
+clap = { version = "4.4", features = ["derive"] }
+config = "0.15.11"
+toml = "0.8.22"
+inkwell = { version = "0.6.0", features = ["llvm15-0"]}
+serde = { version = "1.0.219", features = ["derive"] }
